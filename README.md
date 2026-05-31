@@ -1,5 +1,9 @@
 # Script de Migração e Apontamento Massivo de TR-069 - OLT Fiberhome
 
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![FiberHome](https://img.shields.io/badge/FiberHome-009A44?style=for-the-badge&logoColor=white)
+![Network Automation](https://img.shields.io/badge/Network_Automation-0057D9?style=for-the-badge)
+
 Este script automatizado em Python foi desenvolvido especificamente para cenários de migração, auditoria e gerência centralizada de provedores de internet (ISPs). O objetivo principal da ferramenta é **automatizar o apontamento e a ativação do protocolo TR-069 (ACS)** em milhares de ONTs simultaneamente através da CLI da OLT.
 
 Para que o apontamento do TR-069 funcione perfeitamente sem intervenção manual, o script processa os arquivos de configuração em lote e resolve três grandes gargalos de uma só vez:
