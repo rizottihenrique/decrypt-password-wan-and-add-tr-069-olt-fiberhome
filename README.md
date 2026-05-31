@@ -1,4 +1,4 @@
-# Script de Migração e Apontamento Massivo de TR-069 - OLT Fiberhome
+# Script de migração e apontamento massivo de TR-069 - OLT Fiberhome AN5000/6000 Series
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![FiberHome](https://img.shields.io/badge/FiberHome-009A44?style=for-the-badge&logoColor=white)
