@@ -59,7 +59,7 @@ def processar_lote_an6000_por_pon(arquivo_entrada, arquivo_saida):
                     f_out.write(linha + "\n")
                     
                     # Injeta o TR-069 logo abaixo do IPv6
-                    cmd_tr069 = f"onu remote-manage-cfg {indice_onu} tr069 enable acs-url http://cwmp.nicnet.com.br:8088 acl-user Admin acl-pswd Admin@1234 inform enable interval 59834 port 0 user Admin pswd Admin@1234\n"
+                    cmd_tr069 = f"onu remote-manage-cfg {indice_onu} tr069 enable acs-url http://tr069.acme.com.br:8088 acl-user admin acl-pswd acme@123 inform enable interval 59834 port 0 user Admin pswd acme@123\n"
                     f_out.write(cmd_tr069 + "\n")
 
         print(f"Sucesso! Script gerado preservando a hierarquia das interfaces PON em: {arquivo_saida}")
